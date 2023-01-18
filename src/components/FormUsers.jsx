@@ -25,7 +25,6 @@ const FormUsers = ({ createUser, userUpdate, updateUser, isShowForm, handleChang
   const titleForm = userUpdate ? "Edit User" : "New User";
   const textButton = userUpdate ? "Edit User" : "Add New User";
 
-
   useEffect(() => {
     if (userUpdate) {
       reset(userUpdate)
@@ -37,6 +36,7 @@ const FormUsers = ({ createUser, userUpdate, updateUser, isShowForm, handleChang
 
     <div className={`container-form ${isShowForm ? "" : "disable-form"}`}>
       <form className="form" onSubmit={handleSubmit(submitForm)}>
+
         <i onClick={handleChangeShowModal} className="form__x bx bx-x"></i>
         <h2 className="form__title" >{titleForm}</h2>
 

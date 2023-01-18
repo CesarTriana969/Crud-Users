@@ -5,7 +5,7 @@ import FormUsers from './components/FormUsers'
 import UserCard from './components/UserCard'
 
 const BASE_URL = "https://users-crud.academlo.tech/"
-//37:15
+
 function App() {
 
   const [users, setUsers] = useState()
@@ -64,6 +64,7 @@ function App() {
   useEffect(() => {
     getAllUsers()
   }, [])
+
 
 
   return (
