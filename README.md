@@ -1,4 +1,4 @@
-# My Awesome App
+# Crud Users App
 
 ¡Bienvenido a mi aplicación! Esta es una aplicación en donde se pueden administrar usuarios a través de un CRUD (Create, Read, Update and Delete). Esta aplicación fue creada con Vite y React.
 
